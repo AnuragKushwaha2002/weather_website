@@ -35,16 +35,16 @@ function fetchData(){
         // console.log (rain);
         var set_weather="/weather_website/img/rain2.jpg";
         if (rain>0 && rain<10){
-            set_weather="/weather_website/img/raning.jpg";
+            set_weather="/weather_website/img/rain3.jpg";
         }
         else if (rain>10 && rain<20){
-            set_weather="/weather_website/img/rain3.jpg";
+            set_weather="/weather_website/img/raning.jpg";
         }
         else if (rain>20 && rain<35){
             set_weather="/weather_website/img/clear.jpg";
         }
         else if (temp_ce>20 && temp_ce<35){
-            set_weather="/weather_website/img/clear.jpg";
+            set_weather="/weather_website/img/sun.jpg";
         }
 
         else if (temp_ce>35 && temp_ce<55){
