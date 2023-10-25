@@ -35,20 +35,20 @@ function fetchData(){
         // console.log (rain);
         var set_weather="/weather_website/img/rain2.jpg";
         if (rain>0 && rain<10){
-            set_weather="/img/raning.jpg"
+            set_weather="/weather_website/img/raning.jpg"
         }
         else if (rain>10 && rain<20){
-            set_weather="/img/rain3.jpg"
+            set_weather="/weather_website/img/rain3.jpg"
         }
         else if (rain>20 && rain<35){
-            set_weather="/img/clear.jpg"
+            set_weather="/weather_website/img/clear.jpg"
         }
         else if (temp_ce>25 && temp_ce<35){
-            set_weather="/img/clear.jpg"
+            set_weather="/weather_website/img/clear.jpg"
         }
 
         else if (temp_ce>35 && temp_ce<55){
-            set_weather="/img/sun.jpg"
+            set_weather="/weather_website/img/sun.jpg"
         }
         
         // console.log (`url('https://source.unsplash.com/random/1400×700/?${ set_weather})`);
