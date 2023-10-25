@@ -33,7 +33,7 @@ function fetchData(){
         var rain =result.current.precip_mm;
         var wind= result.current.wind_mph;
         // console.log (rain);
-        var set_weather="/img/rain2.jpg";
+        var set_weather="/weather_website/img/rain2.jpg";
         if (rain>0 && rain<10){
             set_weather="/img/raning.jpg"
         }
