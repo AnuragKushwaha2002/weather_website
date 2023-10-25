@@ -43,7 +43,7 @@ function fetchData(){
         else if (rain>20 && rain<35){
             set_weather="/weather_website/img/clear.jpg";
         }
-        else if (temp_ce>25 && temp_ce<35){
+        else if (temp_ce>20 && temp_ce<35){
             set_weather="/weather_website/img/clear.jpg";
         }
 
